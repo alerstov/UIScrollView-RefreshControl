@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C39890FA1A8FF49300473DFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39890F91A8FF49300473DFB /* Foundation.framework */; };
+		C39890FC1A8FF49300473DFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39890FB1A8FF49300473DFB /* CoreGraphics.framework */; };
+		C39890FE1A8FF49300473DFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39890FD1A8FF49300473DFB /* UIKit.framework */; };
+		C39891041A8FF49300473DFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C39891021A8FF49300473DFB /* InfoPlist.strings */; };
+		C39891061A8FF49300473DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C39891051A8FF49300473DFB /* main.m */; };
+		C398910A1A8FF49300473DFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C39891091A8FF49300473DFB /* AppDelegate.m */; };
+		C39891101A8FF49300473DFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C398910F1A8FF49300473DFB /* ViewController.m */; };
+		C39891121A8FF49300473DFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39891111A8FF49300473DFB /* Images.xcassets */; };
+		C39891301A8FF4EF00473DFB /* UIScrollView+RefershControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C398912F1A8FF4EF00473DFB /* UIScrollView+RefershControl.m */; };
+		C39891321A8FF60E00473DFB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39891311A8FF60E00473DFB /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C39890F61A8FF49300473DFB /* RefreshControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39890F91A8FF49300473DFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C39890FB1A8FF49300473DFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C39890FD1A8FF49300473DFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C39891011A8FF49300473DFB /* RefreshControlExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefreshControlExample-Info.plist"; sourceTree = "<group>"; };
+		C39891031A8FF49300473DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C39891051A8FF49300473DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C39891071A8FF49300473DFB /* RefreshControlExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RefreshControlExample-Prefix.pch"; sourceTree = "<group>"; };
+		C39891081A8FF49300473DFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C39891091A8FF49300473DFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C398910E1A8FF49300473DFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C398910F1A8FF49300473DFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C39891111A8FF49300473DFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C39891181A8FF49300473DFB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C398912E1A8FF4EF00473DFB /* UIScrollView+RefershControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+RefershControl.h"; path = "../../UIScrollView-RefreshControl/UIScrollView+RefershControl.h"; sourceTree = "<group>"; };
+		C398912F1A8FF4EF00473DFB /* UIScrollView+RefershControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+RefershControl.m"; path = "../../UIScrollView-RefreshControl/UIScrollView+RefershControl.m"; sourceTree = "<group>"; };
+		C39891311A8FF60E00473DFB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39890F31A8FF49300473DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39890FC1A8FF49300473DFB /* CoreGraphics.framework in Frameworks */,
+				C39890FE1A8FF49300473DFB /* UIKit.framework in Frameworks */,
+				C39890FA1A8FF49300473DFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39890ED1A8FF49300473DFB = {
+			isa = PBXGroup;
+			children = (
+				C39890FF1A8FF49300473DFB /* RefreshControlExample */,
+				C39890F81A8FF49300473DFB /* Frameworks */,
+				C39890F71A8FF49300473DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39890F71A8FF49300473DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39890F61A8FF49300473DFB /* RefreshControlExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39890F81A8FF49300473DFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C39890F91A8FF49300473DFB /* Foundation.framework */,
+				C39890FB1A8FF49300473DFB /* CoreGraphics.framework */,
+				C39890FD1A8FF49300473DFB /* UIKit.framework */,
+				C39891181A8FF49300473DFB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C39890FF1A8FF49300473DFB /* RefreshControlExample */ = {
+			isa = PBXGroup;
+			children = (
+				C398912E1A8FF4EF00473DFB /* UIScrollView+RefershControl.h */,
+				C398912F1A8FF4EF00473DFB /* UIScrollView+RefershControl.m */,
+				C39891081A8FF49300473DFB /* AppDelegate.h */,
+				C39891091A8FF49300473DFB /* AppDelegate.m */,
+				C398910E1A8FF49300473DFB /* ViewController.h */,
+				C398910F1A8FF49300473DFB /* ViewController.m */,
+				C39891311A8FF60E00473DFB /* ViewController.xib */,
+				C39891111A8FF49300473DFB /* Images.xcassets */,
+				C39891001A8FF49300473DFB /* Supporting Files */,
+			);
+			path = RefreshControlExample;
+			sourceTree = "<group>";
+		};
+		C39891001A8FF49300473DFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39891011A8FF49300473DFB /* RefreshControlExample-Info.plist */,
+				C39891021A8FF49300473DFB /* InfoPlist.strings */,
+				C39891051A8FF49300473DFB /* main.m */,
+				C39891071A8FF49300473DFB /* RefreshControlExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39890F51A8FF49300473DFB /* RefreshControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39891281A8FF49300473DFB /* Build configuration list for PBXNativeTarget "RefreshControlExample" */;
+			buildPhases = (
+				C39890F21A8FF49300473DFB /* Sources */,
+				C39890F31A8FF49300473DFB /* Frameworks */,
+				C39890F41A8FF49300473DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefreshControlExample;
+			productName = RefreshControlExample;
+			productReference = C39890F61A8FF49300473DFB /* RefreshControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39890EE1A8FF49300473DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alexander Stepanov";
+			};
+			buildConfigurationList = C39890F11A8FF49300473DFB /* Build configuration list for PBXProject "RefreshControlExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C39890ED1A8FF49300473DFB;
+			productRefGroup = C39890F71A8FF49300473DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39890F51A8FF49300473DFB /* RefreshControlExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39890F41A8FF49300473DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39891121A8FF49300473DFB /* Images.xcassets in Resources */,
+				C39891321A8FF60E00473DFB /* ViewController.xib in Resources */,
+				C39891041A8FF49300473DFB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39890F21A8FF49300473DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39891101A8FF49300473DFB /* ViewController.m in Sources */,
+				C398910A1A8FF49300473DFB /* AppDelegate.m in Sources */,
+				C39891061A8FF49300473DFB /* main.m in Sources */,
+				C39891301A8FF4EF00473DFB /* UIScrollView+RefershControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C39891021A8FF49300473DFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39891031A8FF49300473DFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C39891261A8FF49300473DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C39891271A8FF49300473DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C39891291A8FF49300473DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefreshControlExample/RefreshControlExample-Prefix.pch";
+				INFOPLIST_FILE = "RefreshControlExample/RefreshControlExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C398912A1A8FF49300473DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefreshControlExample/RefreshControlExample-Prefix.pch";
+				INFOPLIST_FILE = "RefreshControlExample/RefreshControlExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39890F11A8FF49300473DFB /* Build configuration list for PBXProject "RefreshControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39891261A8FF49300473DFB /* Debug */,
+				C39891271A8FF49300473DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39891281A8FF49300473DFB /* Build configuration list for PBXNativeTarget "RefreshControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39891291A8FF49300473DFB /* Debug */,
+				C398912A1A8FF49300473DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39890EE1A8FF49300473DFB /* Project object */;
+}
